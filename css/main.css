@@ -1,0 +1,76 @@
+/*
+	Inserta tu CSS aqui
+*/
+
+
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Open Sans'), local('OpenSans'), url(http://fonts.gstatic.com/s/opensans/v13/K88pR3goAWT7BTt32Z01m4X0hVgzZQUfRDuZrPvH3D8.woff2) format('woff2');
+  unicode-range: U+0460-052F, U+20B4, U+2DE0-2DFF, U+A640-A69F;
+}
+
+.imagengrande{
+	background-image: url(../img/grupal.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	height: 900px;
+}
+.sumateboton{
+	font-family: 'Open Sans';
+	background: #FEC005;
+	border-radius: 5px;
+	border: 1px solid #FEC005;
+	padding: 10px 10px;
+	width: 50%;
+	text-align: center;
+	margin-top: 90px;
+		
+}
+.logo{
+	width:100%;
+	width: 400px;
+	margin-top: 120px;
+}
+
+.lista{
+display: inline-block;
+font-family: 'Open Sans';
+margin-top: 90px;
+padding: 4px; 
+font-size: 16px;
+}
+
+.listasarriba{
+	margin-left: 100px;
+}
+
+.imagenes-section{
+	max-width: 100%;
+	margin-top: 30px;
+	margin-bottom: 20px;
+}
+.parrafo-section{
+	font-weight: bolder;
+	font-family: 'Open Sans';
+	font-size: 21px;
+	margin-bottom: 30px;
+	font-weight: 200px;
+}
+
+.parrafofooter{
+	font-family: 'Open Sans';
+	font-size: 14px;
+	background: #272727;
+	padding:25px;
+	width: 100%;
+}
+
+.parrafoabajo{
+	color: #FFFFFF;
+	margin-left: 35px;
+
+}
+
